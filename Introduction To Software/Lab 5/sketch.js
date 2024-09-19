@@ -17,8 +17,8 @@ function setup() {
 
   diameter[0] = 50;
   for(let j=1; j<diameter.length; j++){
-    diameter[j] = diameter[j-1]+=10
-
+    diameter[j] = diameter[j-1]+=10;
+    
   }
 
 
@@ -29,7 +29,7 @@ for(let i = 0; i<diameter.length; i++){
   
  
   fill(colours);
-  circle(x, y, 40);
+  circle(x, y, sizeArray[i]);
 
 }
 
